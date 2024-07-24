@@ -32,7 +32,6 @@ body {
 .header-text {
     border: blue solid 2px;
     width: 50%;
-    justify-content: stretch;
 }
 
 .header-image {
@@ -48,6 +47,8 @@ button {
     padding: 5px 30px 5px 30px;
     border-radius: 6px;
 }
+
+
 
 .signup-button {
     background-color: #3882F6;

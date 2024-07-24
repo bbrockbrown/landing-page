@@ -25,18 +25,10 @@ body {
 .header-content {
     display: flex;
     text-align: left;
+    flex-direction: column;
     align-items: flex-start;
+    width: 400px;
     border: red solid 2px;
-}
-
-.header-text {
-    border: blue solid 2px;
-    width: 50%;
-    justify-content: stretch;
-}
-
-.header-image {
-    size: auto;
 }
 
 .awesome-text {
@@ -48,6 +40,8 @@ button {
     padding: 5px 30px 5px 30px;
     border-radius: 6px;
 }
+
+
 
 .signup-button {
     background-color: #3882F6;

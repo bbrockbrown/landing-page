@@ -14,7 +14,7 @@ body {
     padding: 0px 100px 50px 100px;
     height: 350px;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .upper-header {
@@ -25,18 +25,9 @@ body {
 .header-content {
     display: flex;
     text-align: left;
+    flex-direction: column;
     align-items: flex-start;
-    border: red solid 2px;
-}
-
-.header-text {
-    border: blue solid 2px;
-    width: 50%;
-    justify-content: stretch;
-}
-
-.header-image {
-    size: auto;
+    width: 400px;
 }
 
 .awesome-text {
@@ -48,6 +39,8 @@ button {
     padding: 5px 30px 5px 30px;
     border-radius: 6px;
 }
+
+
 
 .signup-button {
     background-color: #3882F6;
