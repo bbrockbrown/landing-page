@@ -42,7 +42,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    margin: auto 10px;
+    margin: 10px;
 }
 
 .awesome-text {

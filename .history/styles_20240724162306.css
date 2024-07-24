@@ -42,7 +42,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    margin: auto 10px;
+    
 }
 
 .awesome-text {
@@ -53,6 +53,7 @@ body {
 button {
     padding: 5px 30px 5px 30px;
     border-radius: 6px;
+    width: 25%;
     flex-shrink: 0 !important;
 }
 
@@ -61,7 +62,7 @@ button {
     color: white;
     border: none;
     margin-top: 5px;
-    width: 150px;
+    flex-shrink: 0 !important;
 }
 
 ul {
@@ -140,7 +141,6 @@ a {
     background-color: #3882F6;
     display: flex;
     height: 150px;
-    min-width: fit-content;
     justify-content: space-around;
     margin: 50px 100px;
     padding: 25px 50px;

@@ -9,6 +9,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
+    flex: wrap;
     padding: 0px 100px 50px 100px;
     height: 350px;
     flex-direction: column;
@@ -42,7 +43,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    margin: auto 10px;
+    
 }
 
 .awesome-text {
@@ -140,7 +141,6 @@ a {
     background-color: #3882F6;
     display: flex;
     height: 150px;
-    min-width: fit-content;
     justify-content: space-around;
     margin: 50px 100px;
     padding: 25px 50px;
