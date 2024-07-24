@@ -42,7 +42,6 @@ body {
     background-color: darkgray;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
 }
 
 .awesome-text {

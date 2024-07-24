@@ -26,6 +26,7 @@ body {
     display: flex;
     text-align: left;
     align-items: center;
+    border: red solid 2px;
 }
 
 .header-text {
@@ -39,10 +40,6 @@ body {
     text-align: center;
     width: 50%;
     height: 100%;
-    background-color: darkgray;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
 }
 
 .awesome-text {

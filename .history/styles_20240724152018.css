@@ -25,24 +25,21 @@ body {
 .header-content {
     display: flex;
     text-align: left;
-    align-items: center;
+    align-items: flex-start;
+    border: red solid 2px;
+    justify-content: space-between;
 }
 
 .header-text {
+    border: blue solid 2px;
     width: 50%;
-    display: flex;
-    flex-flow: column wrap;
-    gap: 8px;
+    justify-content: stretch;
 }
 
 .header-image {
-    text-align: center;
-    width: 50%;
-    height: 100%;
-    background-color: darkgray;
-    display: flex;
-    flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
+    border: purple solid 2px;
 }
 
 .awesome-text {
@@ -53,14 +50,12 @@ body {
 button {
     padding: 5px 30px 5px 30px;
     border-radius: 6px;
-    width: 25%;
 }
 
 .signup-button {
     background-color: #3882F6;
-    color: white;
     border: none;
-    margin-top: 5px;
+    
 }
 
 ul {
